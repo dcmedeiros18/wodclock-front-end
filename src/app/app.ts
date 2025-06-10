@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Home } from './components/home/home';
+import { ComponentePai } from './components/componente-pai/componente-pai';
 
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Home], 
+  imports: [RouterOutlet, ComponentePai], 
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'wodclock';
+  protected componenteFilho = 'wodclock';
 }
